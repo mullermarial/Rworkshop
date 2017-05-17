@@ -9,3 +9,6 @@ mers <- read_csv("cases.csv")
 
 # Plot
 ggplot(mers, aes(as.numeric(age))) + geom_histogram()
+
+# Plot of sex
+ggplot(mers, aes(gender)) + geom_bar()
